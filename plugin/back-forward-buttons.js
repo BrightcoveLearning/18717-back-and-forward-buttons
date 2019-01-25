@@ -27,7 +27,7 @@ videojs.registerPlugin('backForwardButtons', function() {
   controlBar.insertBefore(newElementBB, insertBeforeNode);
   controlBar.insertBefore(newElementFB, insertBeforeNode);
 
-  // +++ Add event listeners to jump back or forward +++
+  // +++ Add event handlers to jump back or forward +++
   // Back button logic, don't jump to negative times
   newElementBB.addEventListener('click', function () {
     var newTime,
